@@ -1,0 +1,14 @@
+@import "reset.css";'
+@import "responsive.css";
+@import "style.css";
+@font-face {
+  font-family: '21Cent';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../fonts/21Cent.woff') format("truetype");
+}
+@font-face {
+  font-family: 'Formular';
+  font-style: normal;
+  src: url('../fonts/Formular.woff') format("truetype");
+}
