@@ -38,26 +38,33 @@ html {
   position: relative;
   height: 50vw;
   width: auto;
-  background-image: url("../img/first_pic_1.svg");
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
+}
 
+.first_picture {
+    position: absolute;
+    display: inline-block;
+    height: 52vw;
+    width: 34.3vw;
+    background-image: url("../img/first_pic_1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
 }
 
 .content_first {
   background-image: url("../img/Union.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
+  z-index: 1;
   width: 70%;
   height: 49vw;
 }
 
 .text_first {
   max-width: 100%;
-  position: absolute;
-  padding: 2% 0 0 0;
+  position: relative;
+  padding: 2% 0 4vw 0;
 }
 
 .text_first h1:last-child {
@@ -76,19 +83,23 @@ h1 {
 }
 
 .button_first {
-  position: absolute;
-  width: 15vw;
-  height: 5vw;
-  border-radius: 100px;
-  border: none;
-  font-family: "Formular_Regular";
-  font-size: 2.5vw;
-  background-color: white;
-  color: rgba(40, 25, 21, 1);
-  -webkit-box-shadow: 0px 4px 35px 0px rgba(142, 165, 235, 0,1)t;
-  margin-left: calc(50% - 133.5px);
-  bottom: 6vw;
-  cursor: pointer;
+  position: relative;
+    width: 15vw;
+    display: flex;
+    height: 5vw;
+    border-radius: 100px;
+    border: none;
+    font-family: "Formular_Regular";
+    font-size: 2.5vw;
+    background-color: white;
+    color: rgba(40, 25, 21, 1);
+    -webkit-box-shadow: 0px 4px 35px 0px rgba(142, 165, 235, 0,1)t;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.6vw;
 }
 
 .second_screen {
