@@ -1,10 +1,148 @@
 html {
   background-color: #281915;
 }
-h1 {
-  font-family: "Formular_Regular";
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-h2 {
-  font-family: "_21Cent_Italic";
+::-webkit-scrollbar-track {
+    background-color: #F4ECE1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FC4A27;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+
+}
+.menu {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.menu a {
+  color: #FC4A27;
+  font-family: "Formular_Regular";
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 86px;
+}
+
+.firts_screen {
+  position: relative;
+  height: 100vh;
+  width: auto;
+  background-image: url("../img/first_pic_1.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+
+}
+
+.content_first {
+  background-image: url("../img/Union.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 70%;
+  height: 100vh;
+}
+
+.text_first {
+  max-width: 100%;
+  position: absolute;
+  padding: 2% 0 0 0;
+}
+
+.text_first h1:last-child {
+  padding-top: 5%;
+}
+
+h1 {
+  font-family: "Formular_Regular";
+  font-size: 85px;
+  line-height: 86px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  color: #FC4A27;
+}
+
+.button_first {
+  position: absolute;
+  width: 267px;
+  height: 100px;
+  border-radius: 100px;
+  border: none;
+  font-family: "Formular_Regular";
+  font-size: 48px;
+  line-height: 59px;
+  background-color: white;
+  color: rgba(40, 25, 21, 1);
+  -webkit-box-shadow: 0px 4px 35px 0px rgba(142, 165, 235, 0,1)t;
+  margin-left: calc(50% - 133.5px);
+  bottom: 14vh;
+  cursor: pointer;
+}
+
+.second_screen {
+  position: relative;
+  height: 100vh;
+  width: auto;
+  background-image: url("../img/second_pic.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.second_screen img {
+  right: 16%;
+  position: absolute;
+  top: 23vh;
+}
+
+.second_screen h1 {
+  font-family: "Formular_Regular";
+  font-size: 85px;
+  line-height: 86px;
+  text-align: left;
+  max-width: 61%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #281915;
+}
+
+.second_text {
+  margin-top: 32vh;
+  max-width: 100%;
+  position: absolute;
+}
+.third_screen {
+  background-color: #8EA5EB;
+  position: relative;
+  height: 100vh;
+  width: auto;
+}
+.fourth_screen {
+  background-color: #FC4A27;
+  position: relative;
+  height: 100vh;
+  width: auto;
+}
+.fifth_screen {
+  position: relative;
+  height: 100vh;
+  width: auto;
+}
+.sixth_screen {
+  background-color: #FC4A27;
+  position: relative;
+  height: 100vh;
+  width: auto;
 }
