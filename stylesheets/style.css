@@ -30,13 +30,13 @@ html {
   color: #FC4A27;
   font-family: "Formular_Regular";
   text-decoration: none;
-  font-size: 24px;
-  line-height: 86px;
+  font-size: 1.3vw;
+  line-height: 5vw;
 }
 
 .firts_screen {
   position: relative;
-  height: 100vh;
+  height: 50vw;
   width: auto;
   background-image: url("../img/first_pic_1.svg");
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@ html {
   background-repeat: no-repeat;
   position: relative;
   width: 70%;
-  height: 100vh;
+  height: 49vw;
 }
 
 .text_first {
@@ -66,8 +66,8 @@ html {
 
 h1 {
   font-family: "Formular_Regular";
-  font-size: 85px;
-  line-height: 86px;
+  font-size: 4.5vw;
+  line-height: 4.6vw;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -77,18 +77,17 @@ h1 {
 
 .button_first {
   position: absolute;
-  width: 267px;
-  height: 100px;
+  width: 15vw;
+  height: 5vw;
   border-radius: 100px;
   border: none;
   font-family: "Formular_Regular";
-  font-size: 48px;
-  line-height: 59px;
+  font-size: 2.5vw;
   background-color: white;
   color: rgba(40, 25, 21, 1);
   -webkit-box-shadow: 0px 4px 35px 0px rgba(142, 165, 235, 0,1)t;
   margin-left: calc(50% - 133.5px);
-  bottom: 14vh;
+  bottom: 6vw;
   cursor: pointer;
 }
 
@@ -123,23 +122,57 @@ h1 {
   max-width: 100%;
   position: absolute;
 }
+
 .third_screen {
   background-color: #8EA5EB;
   position: relative;
   height: 100vh;
   width: auto;
 }
+
 .fourth_screen {
   background-color: #FC4A27;
   position: relative;
   height: 100vh;
   width: auto;
 }
+
+.content_fourth {
+  background-image: url("../img/fourth_pic_1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.content_fourth h1{
+  font-family: "Formular_Regular";
+  font-size: 85px;
+  line-height: 86px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48%;
+  color: #291A15;
+  transform: rotate(-4.99deg);
+  margin-top: 30vh;
+}
+
+.fourth_pic_2 {
+  width: 20%;
+  position: absolute;
+
+}
+
 .fifth_screen {
   position: relative;
   height: 100vh;
   width: auto;
 }
+
 .sixth_screen {
   background-color: #FC4A27;
   position: relative;
