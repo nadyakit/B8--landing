@@ -1,6 +1,10 @@
 html {
   background-color: #281915;
 }
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -106,32 +110,42 @@ h1 {
   position: relative;
   height: 100vh;
   width: auto;
-  background-image: url("../img/second_pic.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
-
-.second_screen img {
-  right: 16%;
+.second_slider{
+  padding-left: 5%;
+}
+.second_slider .second_slider_btns{
   position: absolute;
-  top: 23vh;
+  bottom: 0;
 }
-
-.second_screen h1 {
-  font-family: "Formular_Regular";
-  font-size: 85px;
-  line-height: 86px;
-  text-align: left;
-  max-width: 61%;
-  margin-left: auto;
-  margin-right: auto;
-  color: #281915;
+.second_slider .swiper-pagination{
+  display: none;
 }
+.second_slider .swiper {
+  width: 105%;
+  height: 50vh;
+  padding-bottom: 50px;
+}
+.second_slider .swiper .swiper-slide{
 
-.second_text {
-  margin-top: 32vh;
-  max-width: 100%;
-  position: absolute;
+}
+.swiper-button-prev, .swiper-button-prev{
+
+}
+.swiper-button-prev:after, .swiper-button-prev:after{
+  content: none !important;
+}
+#swiper-slide1{
+  background-color: green;
+}
+#swiper-slide2{
+  background-color: black;
+}
+#swiper-slide3{
+  background-color: white;
+}
+#swiper-slide4{
+  background-color: red;
 }
 
 .third_screen {

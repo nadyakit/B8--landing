@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheets/master.css">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <title>B8 // бэйт</title>
     <style media="screen">
 
@@ -54,9 +55,24 @@
         <div class="first_picture"></div>
     </div>
     <div class="second_screen">
-      <img src="img/paper_clip.svg" alt="">
-      <div class="second_text">
-        <h1>B8/Бэйт — <span style="font-family:_21Cent_Italic;">огромная энциклопедия</span> о витаминах и&nbsp;растительных продуктах, в&nbsp;которых они содержатся<h1>
+      <div class="second_slider">
+        <div class="swiper">
+
+          <div class="swiper-wrapper">
+            <div id="swiper-slide1" class="swiper-slide">Slide 1</div>
+            <div id="swiper-slide2" class="swiper-slide">Slide 2</div>
+            <div id="swiper-slide3" class="swiper-slide">Slide 3</div>
+            <div id="swiper-slide4" class="swiper-slide">Slide 4</div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="second_slider_btns">
+            <div class="swiper-button-prev"> <img src="img/arrow_left.svg" alt=""> </div>
+            <div class="swiper-button-next"> <img src="img/arrow_right.svg" alt=""> </div>
+          </div>
+
+        </div>
       </div>
     </div>
     <div class="third_screen">
@@ -74,5 +90,8 @@
     <div class="sixth_screen">
 
     </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
