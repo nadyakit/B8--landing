@@ -122,85 +122,17 @@ h1 {
   display: none;
 }
 .second_slider .swiper {
-  width: 105%;
-  height: 50vh;
+  width: 110%;
+  height: auto;
   padding-bottom: 50px;
 }
 .second_slider .swiper .swiper-slide{
-
-}
-.swiper-button-prev, .swiper-button-prev{
-
-}
-.swiper-button-prev:after, .swiper-button-prev:after{
-  content: none !important;
-}
-#swiper-slide1{
-  background-color: green;
-}
-#swiper-slide2{
-  background-color: black;
-}
-#swiper-slide3{
-  background-color: white;
-}
-#swiper-slide4{
-  background-color: red;
-}
-
-.third_screen {
-  background-color: #8EA5EB;
-  position: relative;
-  height: 100vh;
+  height: 700px;
   width: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
-.fourth_screen {
-  background-color: #FC4A27;
-  position: relative;
-  height: 100vh;
-  width: auto;
-}
-
-.content_fourth {
-  background-image: url("../img/fourth_pic_1.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 100vh;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-}
-
-.content_fourth h1{
-  font-family: "Formular_Regular";
-  font-size: 85px;
-  line-height: 86px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 48%;
-  color: #291A15;
-  transform: rotate(-4.99deg);
-  margin-top: 30vh;
-}
-
-.fourth_pic_2 {
-  width: 20%;
-  position: absolute;
-
-}
-
-.fifth_screen {
-  position: relative;
-  height: 100vh;
-  width: auto;
-}
-
-.sixth_screen {
-  background-color: #FC4A27;
-  position: relative;
-  height: 100vh;
+.second_slider .swiper .swiper-slide img{
+  height: 100%;
   width: auto;
 }
