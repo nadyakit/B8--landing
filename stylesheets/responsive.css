@@ -197,3 +197,95 @@
     font-size: 2.5vw;
   }
 }
+
+
+@media screen and (max-width: 321px){
+  .second_text{
+    margin-top: 50px;
+  }
+  .second_text .image_container{
+    width: 90%;
+  }
+  .second_text .image_container p{
+    font-size: 9vw;
+  }
+
+  .third_screen .image_container{
+    padding: 10vw 0;
+  }
+  .third_screen .image_container p{
+    line-height: 10vw;
+    transform: rotate(0deg);
+    width: 78%;
+    top: 41vw;
+  }
+  #img-card-mobile{display: none;}
+  #img-card-mini{display: block;}
+
+  .fourth_screen{
+    min-height: 156vw;
+  }
+  #bg-lines-mobile{
+    display: none;
+  }
+  #bg-lines-mini{
+    display: block;
+  }
+  .fourth_screen .bg-image-holder img{
+    top: -1vw;
+  }
+  #fourth-header-mobile{
+    display: none;
+  }
+  #fourth-header-mini{
+    display: block;
+  }
+  .fourth_screen .card .image_container{
+    width: 75vw;
+  }
+  #card_1{
+    transform: rotate(-4deg);
+    top: 40vw;
+  }
+  #card_2{
+    transform: rotate(3deg);
+    top: 70vw;
+    right: 23vw;
+  }
+  #card_4{
+    transform: rotate(-4.5deg);
+    top: 95vw;
+    left: 30vw;
+  }
+  #card_3{
+    transform: rotate(7deg);
+    top: 120vw;
+    left: 20vw;
+  }
+  #card_2 .image_container, #card_3 .image_container, #card_4 .image_container{
+    width: 60vw;
+  }
+  #card_1 .image_container p{
+    font-size: 4.5vw;
+    line-height: 6vw;
+  }
+
+
+  footer {
+    padding-bottom: 4vw;
+    line-height: 7vw;
+    height: 6vw;
+  }
+  footer p {
+    font-size: 6vw;
+    margin-right: 4.5vw;
+  }
+  footer:before{
+    height: 4.2vw;
+    top: -4vw;
+  }
+  footer .social{
+    margin-left: 4.5vw;
+    font-size: 6vw;
+  }
+}
