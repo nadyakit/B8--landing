@@ -1,9 +1,11 @@
 //Init swiper
 const swiper = new Swiper('.swiper', {
-  autoplay: true,
+  autoplay: {
+    delay: 5000,
+  },
   autoHeight: true,
   slidesPerView: 3,
-  spaceBetween: 20,
+  spaceBetween: 0,
   direction: 'horizontal',
   loop: true,
   pagination: {
