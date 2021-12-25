@@ -121,4 +121,41 @@
   #fourth-header{
     display: none;
   }
+
+  .fifth_screen{
+    min-height: 120vw;
+  }
+  .fifth_screen .circle{
+    height: 115vw;
+    line-height: 115vw;
+  }
+  .fifth_screen .circle p{
+    font-size: 17vw;
+    line-height: 23vw;
+    text-decoration: underline;
+    text-decoration-thickness: 1vw;
+    text-underline-offset: 2.5vw;
+  }
+  .fifth_screen .circle:hover{
+    background: #F4ECE1;
+    color: #291A15;
+  }
+
+  footer {
+    padding-bottom: 2vw;
+    line-height: 3vw;
+    height: 3vw;
+  }
+  footer p {
+    font-size: 2.5vw;
+    margin-right: 4.5vw;
+  }
+  footer:before{
+    height: 3.1vw;
+    top: -3vw;
+  }
+  footer .social{
+    margin-left: 4.5vw;
+    font-size: 2.5vw;
+  }
 }
