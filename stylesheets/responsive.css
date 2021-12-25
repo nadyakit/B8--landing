@@ -280,6 +280,7 @@
     background-size: cover;
   }
   .menu-items{
+    z-index: 20;
     transition: all linear 0.1s;
     top: 10vw;
     opacity: 0;
