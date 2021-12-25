@@ -144,7 +144,6 @@ h1 {
   padding-bottom: 50px;
 }
 .second_slider .swiper .swiper-slide{
-  cursor: pointer;
   height: 1000px;
   width: auto;
   background-size: contain;
@@ -164,12 +163,14 @@ h1 {
   left: 0;
   right: 0;
   text-align: center;
+  cursor: grab;
 }
 .second_slider .swiper .swiper-slide img{
   height: 750px;
   width: auto;
   display: block;
   margin: 0 auto;
+  cursor: grab;
 }
 
 
@@ -205,4 +206,85 @@ h1 {
   right: 0;
   text-align: center;
   transform: rotate(-5deg);
+}
+
+.fourth_screen{
+  margin-top: 5vw;
+  position: relative;
+}
+.fourth_screen .bg-image-holder img {
+  position: absolute;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  top: 4vw;
+}
+.fourth_screen .card .image_container{
+  width: 40vw;
+  position: relative;
+}
+.fourth_screen .card .image_container img{
+  width: 100%;
+  height: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.fourth_screen .card .image_container p{
+  font-family: "Formular_Regular";
+  font-size: 2.2vw;
+  line-height: 3vw;
+  color: rgba(40, 25, 21, 1);
+
+  width: 84%;
+  position: absolute;
+  top: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#card_1{
+  position: absolute;
+  top: 10vw;
+  left: 12vw;
+  transform: rotate(-16deg);
+}
+#card_2{
+  position: absolute;
+  top: 15vw;
+  right: 14vw;
+  transform: rotate(2deg);
+}
+#card_3{
+  position: absolute;
+  top: 30vw;
+  left: 12vw;
+  transform: rotate(-4deg);
+}
+#card_4{
+  position: absolute;
+  top: 33vw;
+  right: 10vw;
+  transform: rotate(-10deg);
+}
+
+#card_1 .image_container p{
+  color: white;
+}
+#card_2 .image_container p{
+  width: 65%;
+  top: 3.7vw;
+}
+#card_3 .image_container p{
+  width: 80%;
+  top: 2.3vw;
+}
+#card_4 .image_container p{
+  top: 4vw;
 }

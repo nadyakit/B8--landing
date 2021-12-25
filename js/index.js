@@ -8,12 +8,6 @@ const swiper = new Swiper('.swiper', {
   spaceBetween: 0,
   direction: 'horizontal',
   loop: true,
-  pagination: {
-    el: '.swiper-pagination',
-  },
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
 })
 // second text block align
 $( window ).resize(function() {
