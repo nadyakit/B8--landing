@@ -15,7 +15,7 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
 })
-// swiper arrows
+// second text block align
 $( window ).resize(function() {
 
 })

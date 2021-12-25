@@ -114,11 +114,11 @@ h1 {
 .second_text .image_container{
   width: 90%;
   margin: 0 auto;
+  position: relative;
 }
 .second_text .image_container img{
   width: 100%;
   height: auto;
-  position: relative;
 }
 .second_text .image_container p{
   font-family: "Formular_Regular";
@@ -126,8 +126,8 @@ h1 {
   position: absolute;
   display: block;
   width: 90%;
-  top: 11%;
-  padding: 0 60px;
+  padding-left: 3vw;
+  bottom: 5vw;
   text-align: left;
 }
 
