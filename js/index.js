@@ -11,6 +11,9 @@ const swiper = new Swiper('.swiper', {
 })
 //Init swiper mobile
 const swiper_mobile = new Swiper('.swiper-mobile', {
+  autoplay: {
+    delay: 5000,
+  },
   autoHeight: true,
   slidesPerView: 1,
   effect: 'cards',
