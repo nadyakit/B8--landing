@@ -1,3 +1,6 @@
+html, body{
+  overflow-x: hidden;
+}
 html {
   background-color: #281915;
 }
@@ -120,6 +123,9 @@ h1 {
   margin: 0 auto;
   position: relative;
 }
+#second_block_mobile{
+  display: none;
+}
 .second_text .image_container img{
   width: 100%;
   height: auto;
@@ -182,6 +188,7 @@ h1 {
   background-color: #FC4A27;
   border-radius: 1rem;
 }
+#img-card-mobile{display: none;}
 .third_screen .image_container{
   width: 90%;
   height: auto;
@@ -201,7 +208,7 @@ h1 {
 
   width: 70%;
   position: absolute;
-  top: 33%;
+  top: 20.5vw;
   width: 60%;
   margin-left: auto;
   margin-right: auto;

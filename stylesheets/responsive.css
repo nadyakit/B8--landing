@@ -1,4 +1,28 @@
 @media screen and (max-width: 769px) {
+  #second_block{
+    display: none;
+  }
+  #second_block_mobile{
+    display: block;
+  }
+  .second_text{
+    height: 100%;
+    margin-bottom: 10vw;
+  }
+  .second_text .image_container{
+    width: 80%;
+  }
+  .second_text .image_container p{
+    width: 62%;
+    font-size: 7vw;
+    bottom: auto;
+    left: 5vw;
+    top: 32vw;
+    line-height: 8.4vw;
+  }
+
+
+
   .swiper{
     display: none;
   }
@@ -19,4 +43,12 @@
     bottom: 14.8vw;
     line-height: 4.3vw;
   }
+
+  .third_screen .image_container p{
+    width: 68%;
+    font-size: 7vw;
+    top: 32vw;
+  }
+  #img-card{display: none;}
+  #img-card-mobile{display: block;}
 }
