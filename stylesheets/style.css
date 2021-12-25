@@ -93,22 +93,26 @@ h1 {
     font-size: 2.5vw;
     background-color: white;
     color: rgba(40, 25, 21, 1);
-    -webkit-box-shadow: 0px 4px 35px 0px rgba(142, 165, 235, 0,1)t;
+    -webkit-box-shadow: 0px 4px 35px 0px rgba(142, 165, 235, 0.1);
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
     text-align: center;
     justify-content: center;
     padding-top: 0.6vw;
+    transition: all linear .15s;
+    -webkit-transition: all linear .15s;
 }
-
+.button_first:hover{
+  color: #F4ECE1;
+  background-color: #281915;
+}
 .second_screen {
   position: relative;
-  height: 100vh;
   width: auto;
 }
 .second_text{
-  height: 100vh;
+  height: 50vw;
   margin-top: 150px;
 }
 .second_text .image_container{
@@ -122,6 +126,7 @@ h1 {
 }
 .second_text .image_container p{
   font-family: "Formular_Regular";
+  color: rgba(40, 25, 21, 1);
   font-size: 5.5vw;
   position: absolute;
   display: block;
@@ -129,14 +134,6 @@ h1 {
   padding-left: 3vw;
   bottom: 5vw;
   text-align: left;
-}
-
-
-
-
-.second_slider .second_slider_btns{
-  position: absolute;
-  bottom: 0;
 }
 .second_slider .swiper-pagination{
   display: none;
@@ -147,6 +144,7 @@ h1 {
   padding-bottom: 50px;
 }
 .second_slider .swiper .swiper-slide{
+  cursor: pointer;
   height: 1000px;
   width: auto;
   background-size: contain;
@@ -172,4 +170,39 @@ h1 {
   width: auto;
   display: block;
   margin: 0 auto;
+}
+
+
+.third_screen{
+  width: auto;
+  background-color: #FC4A27;
+  border-radius: 1rem;
+}
+.third_screen .image_container{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+.third_screen .image_container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.third_screen .image_container p{
+  font-family: "Formular_Regular";
+  font-size: 5vw;
+  color: rgba(40, 25, 21, 1);
+
+  width: 70%;
+  position: absolute;
+  top: 33%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: rotate(-5deg);
 }
