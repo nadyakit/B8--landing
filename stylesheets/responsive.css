@@ -313,6 +313,9 @@
   .second_text .image_container p{
     font-size: 9vw;
   }
+  .second_slider .swiper-mobile .swiper-slide p{
+    width: 51%;
+  }
 
   .third_screen .image_container{
     padding: 10vw 0;
