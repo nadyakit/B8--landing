@@ -2,6 +2,7 @@
 const swiper = new Swiper('.swiper', {
   autoplay: {
     delay: 5000,
+    disableOnInteraction: false
   },
   autoHeight: true,
   slidesPerView: 3,
@@ -12,7 +13,8 @@ const swiper = new Swiper('.swiper', {
 //Init swiper mobile
 const swiper_mobile = new Swiper('.swiper-mobile', {
   autoplay: {
-    delay: 5000,
+    delay: 3000,
+    disableOnInteraction: false
   },
   autoHeight: true,
   slidesPerView: 1,
