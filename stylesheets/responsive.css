@@ -199,6 +199,10 @@
     background: #F4ECE1;
     color: #291A15;
   }
+  .fifth_screen .circle:hover p{
+    color: #291A15;
+  }
+
 
   footer {
     padding-bottom: 2vw;
@@ -244,8 +248,7 @@
     width: auto;
 
     display: block;
-    padding: 2.5vw;
-    margin-top: 8vw;
+    padding: 9.5vw;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -290,6 +293,10 @@
   .text_first h1{
     line-height: 13vw;
     font-size: 10vw;
+    padding-top: 10vw;
+  }
+  .text_first h1:last-child {
+    padding-top: 10%;
   }
   .text_first {
     transition: all linear 0.25s;
