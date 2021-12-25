@@ -15,7 +15,9 @@ html {
 ::-webkit-scrollbar-thumb {
     background-color: #FC4A27;
 }
-
+#burger-btn{
+  display: none;
+}
 .menu-items {
   display: flex;
   justify-content: space-between;

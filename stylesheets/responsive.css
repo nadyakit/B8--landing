@@ -5,7 +5,7 @@
   .content_first{
     margin-top: 7vw;
     width: 100%;
-    height: 100%;
+    height: 100vw;
     background-image: url(../img/mobile/first.png);
     background-size: cover;
   }
@@ -29,6 +29,7 @@
     height: 8vw;
     width: 20vw;
     margin-top: 5vw;
+    margin-bottom: 5vw;
   }
   .first_picture{
     background-image: url(../img/mobile/bg_first.png);
@@ -200,6 +201,57 @@
 
 
 @media screen and (max-width: 321px){
+  .firts_screen{
+    height: 130vw;
+  }
+  #burger-btn{
+    display: block;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    z-index: 10;
+    width: 17vw;
+    top:8vw;
+    left: 5vw;
+  }
+  #burger-btn img{
+    height: 5vw;
+    width: 10vw;
+  }
+  .button_first{
+    transition: all linear 0.25s;
+  }
+  .content_first{
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/mobile/first_mini.png);
+    background-size: cover;
+  }
+  .first_picture{
+    background-image: url(../img/mobile/bg_first_mini.png);
+    background-size: cover;
+  }
+  .menu-items{
+    transition: all linear 0.1s;
+    top: 10vw;
+    opacity: 0;
+    display: grid;
+    position: absolute;
+  }
+  .menu a{
+    font-size: 4vw;
+    margin: 1.5vw 0;
+  }
+  .text_first h1{
+    font-size: 8.5vw;
+  }
+  .text_first {
+    transition: all linear 0.25s;
+    padding: 5% 0 4vw 0;
+  }
+
+
   .second_text{
     margin-top: 50px;
   }
