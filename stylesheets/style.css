@@ -360,8 +360,10 @@ h1 {
 }
 .fifth_screen .circle:hover{
   background-color: #291A15;
-  color: #F4ECE1;
   cursor: pointer;
+}
+.fifth_screen .circle:hover p{
+  color: #F4ECE1;
 }
 .fifth_screen .circle p{
   font-family: "Formular_Regular";
