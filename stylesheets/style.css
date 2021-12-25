@@ -155,7 +155,6 @@ h1 {
   display: none;
 }
 .second_slider .swiper .swiper-slide{
-  height: 1000px;
   width: auto;
   background-size: contain;
   background-repeat: no-repeat;
@@ -261,7 +260,7 @@ h1 {
   line-height: 3vw;
   color: rgba(40, 25, 21, 1);
 
-  width: 84%;
+  width: 83%;
   position: absolute;
   top: 2.5vw;
   margin-left: auto;
