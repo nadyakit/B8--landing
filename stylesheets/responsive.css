@@ -222,7 +222,7 @@
 
 @media screen and (max-width: 321px){
   .firts_screen{
-    height: 130vw;
+    height: 100vh;
   }
   #burger-btn{
     display: block;
@@ -284,11 +284,12 @@
     position: absolute;
   }
   .menu a{
-    font-size: 4vw;
-    margin: 1.5vw 0;
+    font-size: 7vw;
+    margin: 3vw 0;
   }
   .text_first h1{
-    font-size: 8.5vw;
+    line-height: 13vw;
+    font-size: 10vw;
   }
   .text_first {
     transition: all linear 0.25s;
