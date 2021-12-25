@@ -9,10 +9,15 @@ const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
 })
-// second text block align
-$( window ).resize(function() {
-
-})
-$( document ).ready(function() {
-
+//Init swiper mobile
+const swiper_mobile = new Swiper('.swiper-mobile', {
+  autoHeight: true,
+  slidesPerView: 1,
+  effect: 'cards',
+  cardsEffect:{
+    slideShadows:false
+  },
+  spaceBetween: 0,
+  direction: 'horizontal',
+  loop: true,
 })

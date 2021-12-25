@@ -1,0 +1,22 @@
+@media screen and (max-width: 769px) {
+  .swiper{
+    display: none;
+  }
+  .second_slider .swiper-mobile{
+    display: block;
+    text-align: center;
+    margin-bottom: 10vw;
+  }
+  .second_slider .swiper-mobile .swiper-slide{
+    position: relative;
+  }
+  .second_slider .swiper-mobile .swiper-slide p{
+    position: absolute;
+    font-family: "Formular_Regular";
+    font-size: 4.2vw;
+    width: 60%;
+    left: 20.5vw;
+    bottom: 14.8vw;
+    line-height: 4.3vw;
+  }
+}

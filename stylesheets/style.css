@@ -143,6 +143,9 @@ h1 {
   height: auto;
   padding-bottom: 50px;
 }
+.second_slider .swiper-mobile{
+  display: none;
+}
 .second_slider .swiper .swiper-slide{
   height: 1000px;
   width: auto;
