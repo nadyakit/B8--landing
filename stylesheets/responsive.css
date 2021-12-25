@@ -315,6 +315,8 @@
   }
   .second_slider .swiper-mobile .swiper-slide p{
     width: 51%;
+    left: 24.1vw;
+    bottom: 17vw;
   }
 
   .third_screen .image_container{
