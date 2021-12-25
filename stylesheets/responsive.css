@@ -34,14 +34,17 @@
   .second_slider .swiper-mobile .swiper-slide{
     position: relative;
   }
+  .second_slider .swiper-mobile .swiper-slide img{
+    height: 100vw;
+  }
   .second_slider .swiper-mobile .swiper-slide p{
     position: absolute;
     font-family: "Formular_Regular";
     font-size: 4.2vw;
     width: 60%;
     left: 20.5vw;
-    bottom: 14.8vw;
-    line-height: 4.3vw;
+    bottom: 16.7vw;
+    line-height: 4.8vw;
   }
 
   .third_screen .image_container p{
@@ -51,4 +54,71 @@
   }
   #img-card{display: none;}
   #img-card-mobile{display: block;}
+
+  .fourth_screen{
+    min-height: 120vw;
+  }
+  #bg-lines{
+    display: none;
+  }
+  #bg-lines-mobile{
+    display: block;
+  }
+  .fourth_screen{
+    margin-top: 10vw;
+  }
+  .fourth_screen .bg-image-holder img{
+    top: 13vw;
+  }
+  .fourth_screen .card .image_container{
+    width: 60vw;
+  }
+  .fourth_screen .card .image_container p{
+    font-size: 3.8vw;
+    line-height: 4.2vw;
+    top: 3.8vw;
+  }
+  #card_2 .image_container p{
+    top: 4.5vw;
+  }
+  #card_3 .image_container p{
+    top: 1.8vw;
+  }
+  #card_4 .image_container p{
+    top: 6vw;
+  }
+  #card_1{
+    transform: rotate(10deg);
+  }
+  #card_2{
+    z-index: 2;
+    top: 35vw;
+    transform: rotate(-5deg);
+  }
+  #card_3{
+    top: 82vw;
+    left: 25vw;
+    z-index: 4;
+    transform: rotate(-12deg);
+  }
+  #card_4{
+    z-index: 3;
+    left: 10vw;
+    top: 60vw;
+    transform: rotate(7deg);
+  }
+  #header_card .image_container{
+    width: 90vw;
+  }
+  #header_card{
+    top: -3.5vw;
+    transform: rotate(0deg);
+    right: 4vw;
+  }
+  #fourth-header-mobile{
+    display: block;
+  }
+  #fourth-header{
+    display: none;
+  }
 }

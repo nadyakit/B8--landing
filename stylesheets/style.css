@@ -224,6 +224,9 @@ h1 {
   width: 100%;
   min-height: 60vw;
 }
+#bg-lines-mobile{
+  display: none;
+}
 .fourth_screen .bg-image-holder img {
   position: absolute;
   width: 90%;
@@ -290,6 +293,9 @@ h1 {
   top: 5.5vw;
   right: 23vw;
   transform: rotate(10deg);
+}
+#fourth-header-mobile{
+  display: none;
 }
 #card_1 .image_container p{
   color: #F4ECE1;
