@@ -117,11 +117,26 @@ h1 {
 .second_screen {
   position: relative;
   width: auto;
+
 }
 .second_text{
   height: 50vw;
-  margin-top: 150px;
+  background-image: url("../img/SecondScreen.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 8vw 0;
+
 }
+.second_text p{
+  font-family: "Formular_Regular";
+  line-height: 2.4vw;
+  position: absolute;
+  font-size: 40px;
+  width: 35vw;
+  margin: 18vw 0 0 14vw;
+}
+
 .second_text .image_container{
   width: 90%;
   margin: 0 auto;
