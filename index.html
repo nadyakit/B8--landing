@@ -4,8 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheets/master.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+=======
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+>>>>>>> 472628ae0366153f44818e244dd933d51f84a9de
     <title>B8 // бэйт</title>
     <style media="screen">
 
@@ -23,7 +27,7 @@
    }
    @font-face {
      font-family: "_21Cent_Regular";
-     src: url("fonts/21Cent_Regular.ttf") format("TrueType");
+     src: url("fonts/21Cent_Regular.otf") format("TrueType");
      font-style: normal;
      font-weight: bolder;
    }
@@ -38,12 +42,13 @@
   <body>
     <div class="firts_screen">
         <div class="content_first">
+          <button id="burger-btn" type="button" name="button"> <img src="img/burger.svg" alt=""> </button>
           <nav class="menu">
               <div class="menu-items">
-                <a href="#">Кто мы?</a>
-                <a href="#">Возможности</a>
-                <a href="#">Преимущества</a>
-                <a href="#">Присоединиться</a>
+                <a href="#about">Кто мы?</a>
+                <a href="#futures">Возможности</a>
+                <a href="#pluses">Преимущества</a>
+                <a href="#join">Присоединиться</a>
               </div>
           </nav>
           <div class="text_first">
@@ -53,27 +58,176 @@
           <button class="button_first" type="button" name="button">узнать</button>
           </div>
         <div class="first_picture"></div>
-    </div>
-    <div class="second_screen">
-      <img src="img/paper_clip.svg" alt="">
+    </div> <!-- END FIRST !-->
+    <div id="about" class="second_screen">
       <div class="second_text">
-        <h1>B8/Бэйт — <span style="font-family:_21Cent_Italic;">огромная энциклопедия</span> о витаминах и&nbsp;растительных продуктах, в&nbsp;которых они содержатся<h1>
+        <div class="image_container">
+          <img id="second_block" src="img/second_block.png" alt="">
+          <img id="second_block_mobile" src="img/mobile/second_block.png" alt="">
+          <p>B8/Бэйт — <span style="font-family:_21Cent_Italic;">огромная <br> энциклопедия</span> о&nbsp;витаминах и&nbsp;растительных продуктах, в&nbsp;которых они содержатся</p>
+        </div>
       </div>
-    </div>
-    <div class="third_screen">
 
-    </div>
+      <div id="futures" class="second_slider">
+        <div class="swiper">
+
+          <div class="swiper-wrapper">
+
+            <div id="swiper-slide1" class="swiper-slide">
+              <div class="slider-text">
+                <p>В8 собрал для вас только&nbsp;проверенные данные, полученные прямиком из уст современного ученого&nbsp;сообщества</p>
+              </div>
+              <img src="img/folders/blue.png" alt="">
+            </div>
+
+            <div id="swiper-slide2" class="swiper-slide">
+              <img src="img/folders/yellow.png" alt="">
+              <div class="slider-text">
+                <p>Обладая удобной системой поиска информации, В8 связывает между собой все&nbsp;продукты и&nbsp;витамины, чтобы вы&nbsp;точно не потерялись в&nbsp;его огромной библиотеке!&nbsp;</p>
+              </div>
+            </div>
+
+            <div id="swiper-slide3" class="swiper-slide">
+              <img src="img/folders/red.png" alt="">
+              <div class="slider-text">
+                <p>В8 — место силы, благодаря которому каждый, кто придерживается определённой модели питания, ощущает себя неодиноким в решении этой сложной задачи</p>
+              </div>
+            </div>
+
+            <div id="swiper-slide4" class="swiper-slide">
+              <img src="img/folders/pink.png" alt="">
+              <div class="slider-text">
+                <p>В8 хочет, чтобы вы усвоили изученный материал, поэтому позволяет вам сохранять понравившиеся статьи в&nbsp;индивидуальные подборки и&nbsp;возвращаться к ним</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="swiper-mobile">
+
+          <div class="swiper-wrapper">
+
+            <div id="swiper-slide1" class="swiper-slide">
+              <div class="slider-text">
+                <p>В8 собрал для вас только&nbsp;проверенные данные, полученные прямиком из уст современного ученого&nbsp;сообщества</p>
+              </div>
+              <img src="img/folders/blue.png" alt="">
+            </div>
+
+            <div id="swiper-slide2" class="swiper-slide">
+              <img src="img/folders/yellow.png" alt="">
+              <div class="slider-text">
+                <p>Обладая удобной системой поиска информации, В8 связывает между собой все&nbsp;продукты и&nbsp;витамины, чтобы вы&nbsp;точно не потерялись в&nbsp;его огромной библиотеке!&nbsp;</p>
+              </div>
+            </div>
+
+            <div id="swiper-slide3" class="swiper-slide">
+              <img src="img/folders/red.png" alt="">
+              <div class="slider-text">
+                <p>В8 — место силы, благодаря которому каждый, кто придерживается определённой модели питания, ощущает себя неодиноким в решении этой сложной задачи</p>
+              </div>
+            </div>
+
+            <div id="swiper-slide4" class="swiper-slide">
+              <img src="img/folders/pink.png" alt="">
+              <div class="slider-text">
+                <p>В8 хочет, чтобы вы усвоили изученный материал, поэтому позволяет вам сохранять понравившиеся статьи в&nbsp;индивидуальные подборки и&nbsp;возвращаться к ним</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div> <!-- END SECOND !-->
+
+    <div id="pluses" class="third_screen">
+      <div class="image_container">
+        <img id="img-card" src="img/third_cards.png" alt="">
+        <img id="img-card-mobile" src="img/mobile/third_cards.png" alt="">
+        <img id="img-card-mini" src="img/mobile/third_cards_mini.png" alt="">
+        <p>В8 экономит время при выборе блюд или продуктов</p>
+      </div>
+    </div> <!-- third_screen !-->
+
     <div class="fourth_screen">
-      <div class="content_fourth">
-        <h1>В8 экономит время при выборе блюд или продуктов</h1>
-        <img class="fourth_pic_2" src="img/fourth_pic_2.svg" alt="">
+
+      <div class="bg-image-holder">
+          <img id="bg-lines" src="img/fourth/lines.png" alt="">
+          <img id="bg-lines-mobile" src="img/mobile/lines.png" alt="">
+          <img id="bg-lines-mini" src="img/mobile/lines_mini.png" alt="">
       </div>
-    </div>
-    <div class="fifth_screen">
 
-    </div>
-    <div class="sixth_screen">
+      <div id="card_3" class="card">
+        <div class="image_container">
+          <img src="img/fourth/yellow.png" alt="">
+          <p>аллергикам, которым необходимо восполнять недостающие витамины<br>из-за ограничений</p>
+        </div>
+      </div>
 
-    </div>
+      <div id="card_4" class="card">
+        <div class="image_container">
+          <img src="img/fourth/blue.png" alt="">
+          <p>верующим, которые<br>желают разнообразить<br>рацион во время поста</p>
+        </div>
+      </div>
+
+      <div id="card_2" class="card">
+        <div class="image_container">
+          <img src="img/fourth/pink.png" alt="">
+          <p>людям, которые <br> устали пить витамины <br>в таблетках</p>
+        </div>
+      </div>
+
+      <div id="card_1" class="card">
+        <div class="image_container">
+          <img src="img/fourth/red.png" alt="">
+          <p>начинающим веганам, которым приходтся долго<br>искать нужную информацию о&nbsp;продуктах</p>
+        </div>
+      </div>
+
+      <div id="header_card" class="card">
+        <div class="image_container">
+          <img id="fourth-header" src="img/fourth/header.png" alt="">
+          <p id="fourth-header" >КОМУ ПОДОЙДЕТ B8?</p>
+          <img id="fourth-header-mobile" src="img/mobile/fourth_header.png" alt="">
+          <img id="fourth-header-mini" src="img/mobile/fourth_header_mini.png" alt="">
+        </div>
+      </div>
+
+    </div> <!-- fourth_screen !-->
+    <div id="join" class="fifth_screen">
+      <button type="button" name="button">
+        <div class="circle">
+          <p>
+            В8 is<br>
+            MADE 4U <br>
+            Join us!
+          </p>
+        </div>
+      </button>
+    </div> <!-- fifth_screen !-->
+
+    <footer>
+        <div class="social">
+          <ul>
+            <li> <a href="#">vk</a> </li>
+            <li> <a href="#">inst</a> </li>
+            <li> <a href="#">fb</a> </li>
+          </ul>
+        </div>
+        <p>2021</p>
+    </footer> <!-- footer !-->
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>

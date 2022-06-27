@@ -1,3 +1,7 @@
+html, body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 html {
   background-color: #281915;
 }
@@ -12,7 +16,9 @@ html {
 ::-webkit-scrollbar-thumb {
     background-color: #FC4A27;
 }
-
+#burger-btn{
+  display: none;
+}
 .menu-items {
   display: flex;
   justify-content: space-between;
@@ -71,6 +77,7 @@ html {
   padding-top: 5%;
 }
 
+
 h1 {
   font-family: "Formular_Regular";
   font-size: 4.5vw;
@@ -93,100 +100,315 @@ h1 {
     font-size: 2.5vw;
     background-color: white;
     color: rgba(40, 25, 21, 1);
-    -webkit-box-shadow: 0px 4px 35px 0px rgba(142, 165, 235, 0,1)t;
+    -webkit-box-shadow: 0px 4px 35px 0px rgba(142, 165, 235, 0.1);
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
     text-align: center;
     justify-content: center;
     padding-top: 0.6vw;
+    transition: all linear .15s;
+    -webkit-transition: all linear .15s;
 }
-
+.button_first:hover{
+  color: #F4ECE1;
+  background-color: #281915;
+}
 .second_screen {
   position: relative;
-  height: 100vh;
   width: auto;
-  background-image: url("../img/second_pic.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
-
-.second_screen img {
-  right: 16%;
-  position: absolute;
-  top: 23vh;
+.second_text{
+  height: 50vw;
+  margin-top: 150px;
 }
-
-.second_screen h1 {
+.second_text .image_container{
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+#second_block_mobile{
+  display: none;
+}
+.second_text .image_container img{
+  width: 100%;
+  height: auto;
+}
+.second_text .image_container p{
   font-family: "Formular_Regular";
-  font-size: 85px;
-  line-height: 86px;
+  color: rgba(40, 25, 21, 1);
+  font-size: 5.5vw;
+  position: absolute;
+  display: block;
+  width: 90%;
+  padding-left: 3vw;
+  bottom: 5vw;
   text-align: left;
-  max-width: 61%;
-  margin-left: auto;
-  margin-right: auto;
-  color: #281915;
 }
-
-.second_text {
-  margin-top: 32vh;
-  max-width: 100%;
-  position: absolute;
+.second_slider .swiper-pagination{
+  display: none;
 }
-
-.third_screen {
-  background-color: #8EA5EB;
-  position: relative;
-  height: 100vh;
+.second_slider .swiper {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+.second_slider .swiper-mobile{
+  display: none;
+}
+.second_slider .swiper .swiper-slide{
   width: auto;
-}
-
-.fourth_screen {
-  background-color: #FC4A27;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
-  height: 100vh;
-  width: auto;
 }
-
-.content_fourth {
-  background-image: url("../img/fourth_pic_1.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 100vh;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-}
-
-.content_fourth h1{
+.second_slider .swiper .swiper-slide p{
   font-family: "Formular_Regular";
-  font-size: 85px;
-  line-height: 86px;
-  text-align: center;
+  font-size: 1.7vw;
+  color: rgba(40, 25, 21, 1);
+  position: absolute;
+  top: 18.1vw;
+  line-height: 1.9vw;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 48%;
-  color: #291A15;
-  transform: rotate(-4.99deg);
-  margin-top: 30vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  cursor: grab;
 }
-
-.fourth_pic_2 {
-  width: 20%;
-  position: absolute;
-
-}
-
-.fifth_screen {
-  position: relative;
-  height: 100vh;
+.second_slider .swiper .swiper-slide img{
+  height: 40vw;
   width: auto;
+  display: block;
+  margin: 0 auto;
+  cursor: grab;
 }
 
-.sixth_screen {
+
+.third_screen{
+  width: auto;
   background-color: #FC4A27;
+  border-radius: 1rem;
+}
+#img-card-mobile{display: none;}
+#img-card-mini{display: none;}
+.third_screen .image_container{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
   position: relative;
-  height: 100vh;
-  width: auto;
+}
+.third_screen .image_container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.third_screen .image_container p{
+  font-family: "Formular_Regular";
+  font-size: 5vw;
+  color: rgba(40, 25, 21, 1);
+
+  width: 70%;
+  position: absolute;
+  top: 20.5vw;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: rotate(-5deg);
+}
+
+.fourth_screen{
+  margin-top: 5vw;
+  position: relative;
+  width: 100%;
+  min-height: 60vw;
+}
+#bg-lines-mobile{
+  display: none;
+}
+#bg-lines-mini{
+  display: none;
+}
+.fourth_screen .bg-image-holder img {
+  position: absolute;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  top: 4vw;
+}
+.fourth_screen .card .image_container{
+  width: 40vw;
+  position: relative;
+}
+.fourth_screen .card .image_container img{
+  width: 100%;
+  height: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.fourth_screen .card .image_container p{
+  font-family: "Formular_Regular";
+  font-size: 2.2vw;
+  line-height: 3vw;
+  color: rgba(40, 25, 21, 1);
+
+  width: 83%;
+  position: absolute;
+  top: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#card_1{
+  position: absolute;
+  top: 10vw;
+  left: 12vw;
+  transform: rotate(-16deg);
+}
+#card_2{
+  position: absolute;
+  top: 15vw;
+  right: 14vw;
+  transform: rotate(2deg);
+}
+#card_3{
+  position: absolute;
+  top: 30vw;
+  left: 12vw;
+  transform: rotate(-4deg);
+}
+#card_4{
+  position: absolute;
+  top: 33vw;
+  right: 10vw;
+  transform: rotate(-10deg);
+}
+#header_card{
+  position: absolute;
+  top: 5.5vw;
+  right: 23vw;
+  transform: rotate(10deg);
+}
+#fourth-header-mobile{
+  display: none;
+}
+#fourth-header-mini{
+  display: none;
+}
+#card_1 .image_container p{
+  color: #F4ECE1;
+}
+#card_2 .image_container p{
+  width: 65%;
+  top: 3.7vw;
+}
+#card_3 .image_container p{
+  width: 80%;
+  top: 2.3vw;
+}
+#card_4 .image_container p{
+  top: 4vw;
+}
+#header_card .image_container{
+  width: 45vw;
+}
+#header_card .image_container p {
+  width: 100%;
+  top: 0.8vw;
+  font-size: 3.7vw;
+}
+
+
+.fifth_screen{
+  padding: 2vw 0;
+  background-color: #FC4A27;
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  min-height: 50vw;
+  position: relative;
+}
+.fifth_screen button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+.fifth_screen .circle{
+  display: block;
+  margin: 0 auto;
+  height: 50vw;
+  width: 90vw;
+
+  border-radius: 50%;
+  background-color: #F4ECE1;
+
+  line-height: 50vw;
+
+  transition: all linear .25s;
+}
+.fifth_screen .circle:hover{
+  background-color: #291A15;
+  cursor: pointer;
+}
+.fifth_screen .circle:hover p{
+  color: #F4ECE1;
+}
+.fifth_screen .circle p{
+  font-family: "Formular_Regular";
+  font-size: 12vw;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 13vw;
+  color: #291A15;
+}
+footer{
+  width: 100%;
+  height: 2vw;
+  line-height: 1vw;
+  background-color: #291A15;
+  position: relative;
+}
+footer:before{
+  top: -1vw;
+  background-color: #291A15;
+  border-radius: 1rem 1rem 0 0;
+  content: '';
+  height: 1.1vw;
+  width: 100%;
+  position: absolute;
+}
+footer .social{
+  font-family: "Formular_Regular";
+  font-size: 1vw;
+  float: left;
+  margin-left: 1.5vw;
+}
+footer .social ul li{
+  display: inline;
+  margin: 2vw 0;
+  margin-right: 1.5vw;
+}
+footer .social ul li a{
+  text-decoration: none;
+  color: white;
+}
+footer p{
+  font-family: "Formular_Regular";
+  font-size: 1vw;
+  color: white;
+  float: right;
+  margin-right: 1.5vw;
 }
