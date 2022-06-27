@@ -343,10 +343,11 @@ h1 {
   position: relative;
 }
 .fifth_screen button{
-  background-color: transparent;
-  outline: none;
+  background-color: white;
+  text-decoration: none;
   border: none;
-  display: block;
+  border-radius: 30px;
+  /* display: block; */
   margin: 0 auto;
 }
 .fifth_screen .circle{
